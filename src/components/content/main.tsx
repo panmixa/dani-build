@@ -35,8 +35,8 @@ const MainRoof = () => {
             <div className="main-content">
                 <div className="main-text">
                     <div className="first">
-                        <h2 className="good">We Shall Do <br/> Good Work.</h2>
-                        <h4 className="weDo">Professional services that evoke positive emotions</h4>
+                        <h2 className="good">Nous ferons <br/> Bon travail.</h2>
+                        <h4 className="weDo">Des services professionnels qui évoquent des émotions positives</h4>
                         <div className="buttons">
                             <Button variant="outlined"
                                     href="#services"
@@ -44,7 +44,7 @@ const MainRoof = () => {
                                     style={buttonStyleFirst}
                                     onMouseEnter={handleMouseEnterFirst}
                                     onMouseLeave={handleMouseLeaveFirst}>
-                                Our services
+                                Nos services
                             </Button>
                             <Button variant="outlined"
                                     href="#contact"
@@ -52,7 +52,7 @@ const MainRoof = () => {
                                     style={buttonStyleSecond}
                                     onMouseEnter={handleMouseEnterSecond}
                                     onMouseLeave={handleMouseLeaveSecond}>
-                                Contact us
+                                Contactez-nous
                             </Button>
                         </div>
                     </div>

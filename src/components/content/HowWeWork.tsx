@@ -5,30 +5,31 @@ const HowWeWork = () =>  {
     return (
         <div>
             <div className="how">
-                <h1 className="work">How We Work.</h1>
-                <p className="work">Need a roof repair? Contact us, and we'll do the work.</p>
+                <h1 className="work">Comment Nous Travaillons.</h1>
+                <p className="work">Besoin d'une façade ? Contactez-nous, et nous nous occuperons du travail.</p>
                 <div className="steps">
                     <div className="step">
                         <h2>01.</h2>
-                        <h3>Prepayment & Project.</h3>
-                        <p>Contact our manager and discuss all the details. After the project approval, you make a
-                            50% prepayment.</p>
+                        <h3>Acompte & Projet.</h3>
+                        <p>Contactez notre responsable et discutez de tous les détails. Après l'approbation du projet,
+                            vous effectuez un acompte de 50%.</p>
                     </div>
                     <div className="step">
                         <h2>02.</h2>
-                        <h3>Execution of the Work.</h3>
-                        <p>On the appointed day and time, our team arrives at your place and performs all the work
-                            listed in the contract.</p>
+                        <h3>Exécution des Travaux.</h3>
+                        <p>Le jour et l'heure convenus, notre équipe arrive chez vous et exécute tous les travaux
+                            énumérés dans le contrat.</p>
                     </div>
                     <div className="step">
                         <h2>03.</h2>
-                        <h3>Check Results and Pay.</h3>
-                        <p>You check the quality of the work. If everything is OK, you pay the remaining 50%. A
-                            5-year warranty is included.</p>
+                        <h3>Vérification des Résultats et Paiement.</h3>
+                        <p>Vous vérifiez la qualité du travail. Si tout est en ordre, vous payez les 50% restants. Une
+                            garantie de 5 ans est incluse.</p>
                     </div>
                 </div>
             </div>
         </div>
+
     );
 }
 

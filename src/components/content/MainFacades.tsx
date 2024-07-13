@@ -36,24 +36,26 @@ const MainFacades = () => {
             <div className="main-content">
                 <div className="main-text">
                     <div className="first">
-                        <h2 className="good">We Shall Do <br/> Good Work.</h2>
-                        <h4 className="weDo">Professional services that evoke positive emotions</h4>
+                        <h2 className="good">Nous ferons <br/> Bon travail.</h2>
+                        <h4 className="weDo">Des services professionnels qui évoquent des émotions positives</h4>
                         <div className="buttons">
                             <Button variant="outlined"
                                     onClick={(() => scrollToSection("services"))}
                                     component="a"
                                     style={buttonStyleFirst}
                                     onMouseEnter={handleMouseEnterFirst}
-                                    onMouseLeave={handleMouseLeaveFirst}>
-                                Our services
+                                    onMouseLeave={handleMouseLeaveFirst}
+                            className="but">
+                                Nos services
                             </Button>
                             <Button variant="outlined"
                                     onClick={(() => scrollToSection("contact"))}
                                     component="a"
                                     style={buttonStyleSecond}
                                     onMouseEnter={handleMouseEnterSecond}
-                                    onMouseLeave={handleMouseLeaveSecond}>
-                                Contact us
+                                    onMouseLeave={handleMouseLeaveSecond}
+                                    className="but">
+                                Contactez-nous
                             </Button>
                         </div>
                     </div>

@@ -20,7 +20,7 @@
 
 .weDo {
     position: relative;
-    bottom: 11vh;
+    bottom: 9.5vh;
     font-size: 20px;
     color: white;
 }
@@ -170,4 +170,333 @@ p {
     }
 }
 
+@media (max-width: 768px) {
+    .main-content {
+        height: 60vh;
+    }
+
+    .good {
+        font-size: 60px;
+    }
+
+    .first {
+        margin-left: 5%;
+    }
+
+    .weDo {
+        font-size: 18px;
+        bottom: 7vh;
+    }
+
+    .buttons {
+        height: 50px;
+        bottom: 8vh;
+    }
+
+    .buttons button {
+        font-size: 14px;
+    }
+
+    .provide {
+        font-size: 40px;
+        width: 82%;
+    }
+
+    .handle {
+        font-size: 18px;
+        width: 82%;
+    }
+
+    .container {
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .steps {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .step h2 {
+        font-size: 2.5em;
+    }
+
+    .step h3 {
+        font-size: 1.2em;
+    }
+
+    .step p {
+        font-size: 0.9em;
+    }
+
+    .how h1 {
+        font-size: 40px;
+    }
+
+    .how h2 {
+        font-size: 70px;
+    }
+
+    .work {
+        margin-left: 5%;
+    }
+}
+
+/* Devices with a width of 425px or less */
+@media (max-width: 425px) {
+    .main-content {
+        height: 50vh;
+    }
+
+    .work {
+        margin-left: 5%;
+    }
+
+    .good {
+        font-size: 50px;
+    }
+
+    .first {
+        margin-left: 5%;
+    }
+
+    .weDo {
+        font-size: 16px;
+        bottom: 6vh;
+    }
+
+    .buttons {
+        height: 40px;
+        bottom: 6vh;
+    }
+
+    .buttons button {
+        font-size: 12px;
+    }
+
+    .provide {
+        font-size: 30px;
+        width: 72%;
+    }
+    #vitrine {
+        width: 30%;
+    }
+
+    .handle {
+        font-size: 16px;
+        width: 73%;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    .steps {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .step h2 {
+        font-size: 2em;
+    }
+
+    .step h3 {
+        font-size: 1em;
+    }
+
+    .step p {
+        font-size: 0.8em;
+    }
+
+    .how h1 {
+        font-size: 30px;
+    }
+
+    .how h2 {
+        font-size: 50px;
+    }
+}
+
+/* Devices with a width of 375px or less */
+@media (max-width: 375px) {
+    .main-content {
+        height: 45vh;
+    }
+
+    .good {
+        font-size: 45px;
+    }
+
+    .first {
+        margin-left: 5%;
+    }
+
+    .weDo {
+        font-size: 14px;
+        bottom: 5vh;
+    }
+
+    .buttons {
+        height: 35px;
+        bottom: 5vh;
+    }
+
+    .buttons button {
+        font-size: 11px;
+    }
+
+    .provide {
+        font-size: 28px;
+    }
+
+    .handle {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 0.8em;
+    }
+
+    .steps {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .step h2 {
+        font-size: 1.8em;
+    }
+
+    .step h3 {
+        font-size: 0.9em;
+    }
+
+    .step p {
+        font-size: 0.7em;
+    }
+
+    .how h1 {
+        font-size: 25px;
+    }
+
+    .how h2 {
+        font-size: 45px;
+    }
+}
+
+/* Devices with a width of 320px or less */
+@media (max-width: 320px) {
+    .main-content {
+        height: 40vh;
+    }
+
+    .good {
+        font-size: 40px;
+    }
+
+    .first {
+        margin-left: 5%;
+    }
+
+    .weDo {
+        font-size: 12px;
+        bottom: 4vh;
+    }
+
+    .buttons {
+        height: 30px;
+        bottom: 4vh;
+    }
+
+    .buttons .but {
+        font-size: 10px;
+    }
+
+    .provide {
+        font-size: 24px;
+    }
+
+    .handle {
+        font-size: 12px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 0.7em;
+    }
+
+    .steps {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .step h2 {
+        font-size: 1.5em;
+    }
+
+    .step h3 {
+        font-size: 0.8em;
+    }
+
+    .step p {
+        font-size: 0.6em;
+    }
+
+    .how h1 {
+        font-size: 20px;
+    }
+
+    .how h2 {
+        font-size: 40px;
+    }
+}
 

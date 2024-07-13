@@ -5,28 +5,35 @@ import {scrollToSection} from "../utils/utils";
 const AboutUs = () => {
     return (
         <div className="about-willerroof" id="about">
-            <div className="images-container">
-                <img src={about} alt="House" className="house-image" />
-            </div>
             <div className="content-container">
                 <h1>
-                    About <span className="highlight">WillerRoof</span>.
+                    À propos de <span className="highlight">Façade+</span>.
                 </h1>
                 <p>
-                    We are professionals of roof repair and installation. Do you need our services? Contact us!
+                    Nous sommes des professionnels de la réparation et de l'installation de toitures. Besoin de nos
+                    services ? Contactez-nous !
                 </p>
                 <p>
-                    WillerRoof is a family-owned company that has been installing and renovating roofing in NY & California for 15 years.
+                    Façade+ est une entreprise familiale qui embellit et rénove des façades à NY et en Californie depuis
+                    15 ans.
                 </p>
                 <p>
-                    Gradually, our business expanded, and now we have another representative office in New York. Our staff includes about 50 people with excellent skills and extensive experience. We can develop a project, advise on suitable material, install new roofing or repair the old one. We also redo the work of other crews and perform construction design supervision. Your roofing is in good hands!
+                    Peu à peu, notre activité s'est développée et nous avons maintenant un autre bureau de
+                    représentation à New York. Notre personnel comprend environ 50 personnes ayant d'excellentes
+                    compétences et une grande expérience. Nous pouvons développer un projet, conseiller sur les
+                    matériaux appropriés, installer de nouvelles façades ou réparer les anciennes. Nous refaisons
+                    également le travail d'autres équipes et assurons la supervision de la conception des constructions.
+                    Votre façade est entre de bonnes mains !
                 </p>
                 <div className="buttons-container">
-                    <button onClick={() => scrollToSection("showcase")} className="showcase-button">Showcase</button>
-                    <button onClick={() => scrollToSection("contact")} className="contact-button">Contact us</button>
+                    <button onClick={() => scrollToSection("showcase")} className="showcase-button">Réalisations
+                    </button>
+                    <button onClick={() => scrollToSection("contact")} className="contact-button">Contactez-nous
+                    </button>
                 </div>
             </div>
         </div>
+
     );
 }
 export default AboutUs;

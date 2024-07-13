@@ -11,6 +11,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import {useState} from "react";
 
 
 interface Service {
@@ -25,22 +26,37 @@ interface Service {
 const Services = (roofs: any) => {
 
     const photo = [repair, replacemnets, installation, repair, replacemnets, installation]
+    const [slidesCount, setSlidesCount] = useState(3);
+
+    const checkWidth = () => {
+        const width = window.innerWidth;
+        if (width < 769) {
+            if (width < 430) {
+                setSlidesCount(1);
+            } else {
+                setSlidesCount(2);
+            }
+        } else {
+            setSlidesCount(3);
+        }
+    }
+
 
     return (
         <div id="services">
             <div className="second-text">
-                <h2 className="provide">Services We Provide.</h2>
-                <h3 className="handle">Whatever work you need, we can handle it</h3>
+                <h2 className="provide">Services que nous fournissons.</h2>
+                <h3 className="handle">Quel que soit le travail dont vous avez besoin, nous pouvons le gérer</h3>
             </div>
             <div className="container">
                 <Swiper
                     modules={[Navigation, Pagination, Scrollbar, A11y]}
                     spaceBetween={50}
-                    slidesPerView={3}
+                    slidesPerView={slidesCount}
                     navigation
                     loop={true}
                     pagination={{clickable: true}}
-                    onSlideChange={() => console.log('slide change')}
+                    onSlideChange={() => checkWidth()}
                     onSwiper={(swiper: any) => console.log(swiper)}
                 >
                     {roofs.roofs.map((roof: any, index: number) => (

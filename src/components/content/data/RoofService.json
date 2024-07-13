@@ -1,49 +1,49 @@
 [
   {
-    "h3": "Roof Repair.",
-    "p1": "We specialize in repairs for both flat and shingle roofs. Whether you need a minor fix, or a flat roof sealant applied, contact us.",
+    "h3": "Réparation de Façades.",
+    "p1": "Nous sommes spécialisés dans les réparations de façades en plâtre et en brique. Que vous ayez besoin d'une petite réparation ou d'une rénovation complète, contactez-nous.",
     "p2": {
-      "price": "30$",
-      "text": "/ square meter"
+      "price": "40$",
+      "text": "/ mètre carré"
     }
   },
   {
-    "h3": "Roof Replacements.",
-    "p1": "Regular maintenance and minor fixes is a great way to extend the life of your roof,\n but all roofs need to be replaced at some point.",
+    "h3": "Remplacement de Façades.",
+    "p1": "L'entretien régulier et les petites réparations sont d'excellents moyens de prolonger la durée de vie de votre façade, mais toutes les façades doivent être remplacées à un moment donné.",
     "p2": {
-      "price": "10$",
-      "text": "/ square meter"
+      "price": "20$",
+      "text": "/ mètre carré"
     }
   },
   {
-    "h3": "Roof Installation.",
-    "p1": "If you are building a house, you need to think about the reliable roof. We will\n develop a project, select materials, and do the work.",
+    "h3": "Installation de Façades.",
+    "p1": "Si vous construisez une maison, vous devez penser à une façade fiable. Nous élaborerons un projet, sélectionnerons les matériaux et réaliserons les travaux.",
     "p2": {
-      "price": "150$",
-      "text": "/ project"
+      "price": "200$",
+      "text": "/ projet"
     }
   },
   {
-    "h3": "Another Service.",
-    "p1": "We specialize in repairs for both flat and shingle roofs. Whether you need a minor fix, or a flat roof sealant applied, contact us.",
+    "h3": "Service de Façade Personnalisé.",
+    "p1": "Nous sommes spécialisés dans les solutions personnalisées pour les façades. Que vous ayez besoin d'un design unique ou de matériaux spéciaux, contactez-nous.",
     "p2": {
-      "price": "50$",
+      "price": "70$",
       "text": "/ service"
     }
   },
   {
-    "h3": "Another Service.",
-    "p1": "We specialize in repairs for both flat and shingle roofs. Whether you need a minor fix, or a flat roof sealant applied, contact us.",
+    "h3": "Service de Façade Personnalisé.",
+    "p1": "Nous sommes spécialisés dans les solutions personnalisées pour les façades. Que vous ayez besoin d'un design unique ou de matériaux spéciaux, contactez-nous.",
     "p2": {
-      "price": "50$",
+      "price": "70$",
       "text": "/ service"
     }
   },
   {
-    "h3": "Another Service.",
-    "p1": "We specialize in repairs for both flat and shingle roofs. Whether you need a minor fix, or a flat roof sealant applied, contact us.",
+    "h3": "Service de Façade Personnalisé.",
+    "p1": "Nous sommes spécialisés dans les solutions personnalisées pour les façades. Que vous ayez besoin d'un design unique ou de matériaux spéciaux, contactez-nous.",
     "p2": {
-      "price": "50$",
+      "price": "70$",
       "text": "/ service"
     }
   }

@@ -15,25 +15,41 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import {useState} from "react";
 
 
 const Showcase = (roofs: any) => {
 
     const photo = [one, two, three, four, five, six]
+    const [slidesCount, setSlidesCount] = useState(3);
+
+    const checkWidth = () => {
+        const width = window.innerWidth;
+        if (width < 769) {
+            if (width < 430) {
+                setSlidesCount(1);
+            } else {
+                setSlidesCount(2);
+            }
+        } else {
+            setSlidesCount(3);
+        }
+    }
+
 
     return (
         <div id="showcase">
             <div className="second-text">
-                <h2 className="provide">Showcase.</h2>
+                <h2 className="provide" id="vitrine">Vitrine.</h2>
             </div>
             <div className="container-show">
                 <Swiper
                     modules={[Navigation, Pagination, Scrollbar, A11y]}
                     spaceBetween={50}
-                    slidesPerView={3}
+                    slidesPerView={slidesCount}
                     navigation
                     loop={true}
-                    onSlideChange={() => console.log('slide change')}
+                    onSlideChange={() => checkWidth()}
                     onSwiper={(swiper: any) => console.log(swiper)}
                 >
                     {roofs.roofs.map((roof: any, index: number) => (

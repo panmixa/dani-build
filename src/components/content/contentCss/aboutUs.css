@@ -4,6 +4,10 @@
     display: flex;
     padding: 40px;
     background-color: #f8eae9;
+    background-image: url('../../../photos/images/about3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .house-image, .worker-image {

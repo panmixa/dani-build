@@ -115,3 +115,99 @@
     font-size: 1em;
     margin-bottom: 20px;
 }
+
+/* Tablets and medium devices (768px and up) */
+@media (max-width: 768px) {
+    .container, .container-why {
+        width: 85%;
+    }
+
+    .card, .card-why, .card-show {
+        padding: 10px;
+    }
+
+    .card img, .card-why img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .card h3, .card-why h3, .card-show h3 {
+        font-size: 1.2em;
+    }
+
+    .price {
+        font-size: 1em;
+    }
+}
+
+/* Small devices (425px and up) */
+@media (max-width: 425px) {
+    .container, .container-why {
+        width: 70%;
+    }
+
+    .card, .card-why, .card-show {
+        padding: 5px;
+    }
+
+    .card img, .card-why img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .card h3, .card-why h3, .card-show h3 {
+        font-size: 1.1em;
+    }
+
+    .price {
+        font-size: 0.9em;
+    }
+}
+
+/* Extra small devices (375px and up) */
+@media (max-width: 375px) {
+    .container, .container-why {
+        width: 95%;
+    }
+
+    .card, .card-why, .card-show {
+        padding: 5px;
+    }
+
+    .card img, .card-why img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .card h3, .card-why h3, .card-show h3 {
+        font-size: 1em;
+    }
+
+    .price {
+        font-size: 0.8em;
+    }
+}
+
+/* Extra small devices (320px and up) */
+@media (max-width: 320px) {
+    .container, .container-why {
+        width: 100%;
+    }
+
+    .card, .card-why, .card-show {
+        padding: 5px;
+    }
+
+    .card img, .card-why img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .card h3, .card-why h3, .card-show h3 {
+        font-size: 0.9em;
+    }
+
+    .price {
+        font-size: 0.7em;
+    }
+}
