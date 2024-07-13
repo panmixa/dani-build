@@ -1,0 +1,49 @@
+/* src/components/AboutWillerRoof.css */
+
+.about-willerroof {
+    display: flex;
+    padding: 40px;
+    background-color: #f8eae9;
+}
+
+.house-image, .worker-image {
+    width: 67%;
+    height: auto;
+}
+
+.content-container {
+    max-width: 600px;
+}
+
+.highlight {
+    color: #f7941d;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.showcase-button, .contact-button {
+    background-color: #f7941d;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-button {
+    background-color: #333;
+}
+
+.buttons-container :hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}

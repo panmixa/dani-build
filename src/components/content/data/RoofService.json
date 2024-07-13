@@ -1,0 +1,50 @@
+[
+  {
+    "h3": "Roof Repair.",
+    "p1": "We specialize in repairs for both flat and shingle roofs. Whether you need a minor fix, or a flat roof sealant applied, contact us.",
+    "p2": {
+      "price": "30$",
+      "text": "/ square meter"
+    }
+  },
+  {
+    "h3": "Roof Replacements.",
+    "p1": "Regular maintenance and minor fixes is a great way to extend the life of your roof,\n but all roofs need to be replaced at some point.",
+    "p2": {
+      "price": "10$",
+      "text": "/ square meter"
+    }
+  },
+  {
+    "h3": "Roof Installation.",
+    "p1": "If you are building a house, you need to think about the reliable roof. We will\n develop a project, select materials, and do the work.",
+    "p2": {
+      "price": "150$",
+      "text": "/ project"
+    }
+  },
+  {
+    "h3": "Another Service.",
+    "p1": "We specialize in repairs for both flat and shingle roofs. Whether you need a minor fix, or a flat roof sealant applied, contact us.",
+    "p2": {
+      "price": "50$",
+      "text": "/ service"
+    }
+  },
+  {
+    "h3": "Another Service.",
+    "p1": "We specialize in repairs for both flat and shingle roofs. Whether you need a minor fix, or a flat roof sealant applied, contact us.",
+    "p2": {
+      "price": "50$",
+      "text": "/ service"
+    }
+  },
+  {
+    "h3": "Another Service.",
+    "p1": "We specialize in repairs for both flat and shingle roofs. Whether you need a minor fix, or a flat roof sealant applied, contact us.",
+    "p2": {
+      "price": "50$",
+      "text": "/ service"
+    }
+  }
+]
