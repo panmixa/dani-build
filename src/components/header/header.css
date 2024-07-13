@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-left: 40%;
+}
+
+.header-social-icons {
+    justify-content: right;
+    padding: 10px;
+    margin-right: 5%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.logo img {
+    height: 100px;
+    width: 100px;
+}
+
+.header .logo img {
+    max-height: 50px;
+    margin-right: 10px;
+}
+
+.header .contact-info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.header .contact-info div {
+    margin: 0 15px;
+}
+
+.header .header-social-icons {
+    margin-bottom: 20px;
+}
+
+.header .header-social-icons a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #f26b3a;
+}
+
+.header .navigation {
+    display: flex;
+
+}
+
+.header .navigation a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8eae9;
+    padding: 3vh;
+}
+
+.services :hover {
+    cursor: pointer;
+    border-bottom: 3px solid black;
+}
+
