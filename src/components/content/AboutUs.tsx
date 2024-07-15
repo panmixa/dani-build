@@ -14,12 +14,12 @@ const AboutUs = () => {
                     services ? Contactez-nous !
                 </p>
                 <p>
-                    Façade+ est une entreprise familiale qui embellit et rénove des façades à NY et en Californie depuis
-                    15 ans.
+                    Façade+ est une entreprise familiale qui embellit et rénove des façades et en Belgique
+                    depuis 15 ans.
                 </p>
                 <p>
                     Peu à peu, notre activité s'est développée et nous avons maintenant un autre bureau de
-                    représentation à New York. Notre personnel comprend environ 50 personnes ayant d'excellentes
+                    représentation à Bruxelles. Notre personnel comprend environ 50 personnes ayant d'excellentes
                     compétences et une grande expérience. Nous pouvons développer un projet, conseiller sur les
                     matériaux appropriés, installer de nouvelles façades ou réparer les anciennes. Nous refaisons
                     également le travail d'autres équipes et assurons la supervision de la conception des constructions.

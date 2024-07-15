@@ -25,7 +25,6 @@ const Header= () => {
                     <div className="header-social-icons">
                         <a href="https://www.facebook.com/profile.php?id=61562673326888" target="_blank"><img src={facebook} alt="Facebook" width="30" /></a>
                         <a href="#" target="_blank"><img src={insta}  alt="Instagram" width="30" /></a>
-                        <a href="#" target="_blank"><img src={youTube}  alt="YouTube" width="30" /></a>
                     </div>
                 </div>
             </div>

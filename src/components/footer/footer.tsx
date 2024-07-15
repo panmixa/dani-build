@@ -37,7 +37,6 @@ const Footer = () => {
                         <a href="https://www.facebook.com/profile.php?id=61562673326888" target="_blank"><img
                             src={facebook} alt="Facebook" width="25"/></a>
                         <a href="#" target="_blank"><img src={insta} alt="Instagram" width="25"/></a>
-                        <a href="#" target="_blank"><img src={youTube} alt="YouTube" width="25"/></a>
                     </div>
                 </div>
             </div>
